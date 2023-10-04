@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AmpliandoHotel"
+    android:background="@drawable/ferr">
+
+
+    <TextView
+        android:id="@+id/Àmpliandonombrerest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESTAURANTE EL BUEN SAZON"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.065" />
+
+    <ImageView
+        android:id="@+id/AmpliandofotoRest"
+        android:layout_width="358dp"
+        android:layout_height="211dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/nuevo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Àmpliandonombrerest"
+        app:layout_constraintVertical_bias="0.053" />
+
+    <TextView
+        android:id="@+id/AmpliandoprecioRest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$29.000 COP"
+        android:textColor="@color/whitesmoke"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.447"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AmpliandofotoRest"
+        app:layout_constraintVertical_bias="0.056" />
+
+    <TextView
+        android:id="@+id/Ampliandocontactohotel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3157854262"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.441"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AmpliandoprecioRest"
+        app:layout_constraintVertical_bias="0.021" />
+
+    <TextView
+        android:id="@+id/resenaAhotelrest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Todo me a encantado, vengo de otro pais y su sabor me a enloquecido "
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Ampliandocontactohotel"
+        app:layout_constraintVertical_bias="0.049"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:id="@+id/fotoadicionalrest"
+        android:layout_width="356dp"
+        android:layout_height="170dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/oce"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.29"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resenaAhotelrest"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/botonReservar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/custom_button"
+        android:text="Reservar"
+        app:backgroundTint="@null"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Turistiandov2 </string>
+    <string name="resenahoteles">
+       This hotel has an outdoor pool and is located in a quiet area of Santa Marta,
+        just 3 km from Simón Bolívar airport and 8 km from El Rodadero beach.
+</string>
+    <string name="resenaRestaurantes">
+       In this magical restaurant you will find a variety of flavors that will make your palate have an explosion of flavors, we have
+        dishes from 13,900 for you and your whole family.
+    </string>
+    <string name="resenaSitiosTuristicos">
+        We have dream landscapes, where you can watch the sunset and create wonderful moments with your loved ones.
+    </string>
+    <string name="opcion1">ingles</string>
+    <string name="opcion2">español</string>
+    <string name="opcion3">acerca de</string>
+
+    <string name="usuario"> utente
+    </string>
+
+    <string name="contraseña">parola
+    </string>
+
+    <string name="INGRESO">ENTRARE DENTRO
+    </string>
+
+    <string name="Bienvenido">Benvenuto
+    </string>
+
+
+
+    <string name="hoteles">Alberghi
+    </string>
+
+    <string name="restaurantes">ristoranti
+    </string>
+
+    <string name="sitiosturisticos">siti turistici
+    </string>
+
+    <string name="Contacto"> Contattaci
+    </string>
+
+    <string name="Telefono"> Telefono: 3135685945
+   </string>
+
+    <string name="Platorecomendado"> PIATTO CONSIGLIATO
+    </string>
+
+
+</resources>

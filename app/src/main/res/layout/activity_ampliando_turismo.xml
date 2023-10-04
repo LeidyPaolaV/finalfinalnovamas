@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AmpliandoTurismo"
+    android:background="@drawable/take">
+
+
+    <TextView
+        android:id="@+id/Àmpliandonombreturismo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VALLE ENCANTADO"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.075" />
+
+    <ImageView
+        android:id="@+id/Ampliandofototurismo"
+        android:layout_width="323dp"
+        android:layout_height="186dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/uuu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Àmpliandonombreturismo"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <TextView
+        android:id="@+id/Ampliandoprecioturismo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$275.000 COP"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Ampliandofototurismo"
+        app:layout_constraintVertical_bias="0.036" />
+
+    <TextView
+        android:id="@+id/Ampliandocontactoturismo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3157854262"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Ampliandoprecioturismo"
+        app:layout_constraintVertical_bias="0.031" />
+
+    <TextView
+        android:id="@+id/resenaAturismo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quede encantada con este lugar, es maravilloso y su gente es muy gentil y amable "
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Ampliandocontactoturismo"
+        app:layout_constraintVertical_bias="0.049"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:id="@+id/fotoadicional"
+        android:layout_width="278dp"
+        android:layout_height="164dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/pin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resenaAturismo"
+        app:layout_constraintVertical_bias="0.137" />
+
+    <Button
+        android:id="@+id/botonReservar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/custom_button"
+        android:textColor="@color/black"
+        android:text="Reservar"
+        app:backgroundTint="@null"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

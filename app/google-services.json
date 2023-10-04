@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "563884758811",
+    "project_id": "turistiandolpv",
+    "storage_bucket": "turistiandolpv.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563884758811:android:5d54d42f81e51167fbe5be",
+        "android_client_info": {
+          "package_name": "com.example.turismofinal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXaZCg4wlUKchzEdQD8_Je8LondHuaAVc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
